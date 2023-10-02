@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
         if 'open google' in Input:
             talk('sure')
-            webbrowser.open('www.google.co.in')
+            webbrowser.open('www.google.com')
 
         elif 'open gmail' in Input:
             talk('sure')
@@ -77,11 +77,11 @@ if __name__ == '__main__':
             talk('sure')
             webbrowser.open('www.youtube.com')
 
-        elif "what\'s up" in Input or 'how are you' in Input:
+        elif "what\'s up?" in Input or 'how are you?' in Input:
             setReplies = ['Just doing some stuff!', 'I am good!', 'Nice!', 'I am amazing and full of power']
             talk(random.choice(setReplies))
        
-        elif "who are you" in Input or 'where are you' in Input or 'what are you' in Input:
+        elif "who are you?" in Input or 'where are you?' in Input or 'what are you?' in Input:
             setReplies = [' I am Jarivs!', 'In your system', 'I am an example of AI']
             talk(random.choice(setReplies))
 
@@ -122,13 +122,13 @@ if __name__ == '__main__':
 
 
         elif 'play music' in Input:
-            music_dir = 'E:\\BEATS'
+            music_dir = 'Your_Music_Path'
             songs = os.listdir(music_dir)
             print(songs)    
             os.startfile(os.path.join(music_dir, songs[0]))
 
         elif 'show images' in Input:
-            image_dir = 'E:\\ALI docs'
+            image_dir = 'Your_Image_Path'
             image = os.listdir(image_dir)
             print(image)    
             os.startfile(os.path.join(image_dir, image[0]))
@@ -140,7 +140,7 @@ if __name__ == '__main__':
             talk(f"Boss, the time is {strTime}")
 
         elif 'open vs code' in Input:
-            codePath = "C:\\Users\\Mr.Whoami\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codePath = "Your_VSCode_Path"
             os.startfile(codePath)
 
         else:
@@ -170,3 +170,4 @@ if __name__ == '__main__':
 
         talk('Next Command! Please!')
 
+#to be continued...
