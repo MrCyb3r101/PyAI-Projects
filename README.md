@@ -13,7 +13,7 @@ Push to the branch: git push origin feature/your-feature-name.
 Submit a pull request with a clear description of your changes.
 
 Support
-If you have any questions, issues, or suggestions regarding this repository, please [create a new issue](link to issues page) or contact the repository owner (your GitHub username) directly.
+If you have any questions, issues, or suggestions regarding this repository, contact the repository owner MrCyb3r10 directly.
 
 License
-This project is licensed under the GNU General Public License v3.0 
+This project is licensed under the GNU General Public License v3.0 - https://github.com/MrCyb3r101/PyAI-Projects/blob/main/LICENSE
